@@ -1,8 +1,12 @@
-# Practica 3 Informatica
+# Práctica 3 — Informática
 
-Esta es una actividad desarrollada por:
+## Resumen
+Proyecto de laboratorio de la Universidad de Antioquia. Esta práctica contiene cuatro ejercicios relacionados con compresión, encriptación y la integración de ambos procesos en una aplicación modular. El objetivo es implementar algoritmos clásicos (RLE y LZ78), un módulo de encriptación y una aplicación que permita encadenar los pasos de compresión, encriptación, desencriptación y descompresión verificando la integridad de los datos.
 
+---
 
+## Detalles del enunciado
+A continuación se describen los ejercicios y las reglas que deben cumplirse. (Nota: el contenido funcional y las restricciones de los ejercicios no deben alterarse.)
 
 ### Ejercicios
 Consiste en desarrollar los siguientes 4 ejercicios.
@@ -78,29 +82,23 @@ En desarrollo.
 
 ---
 
-## Organización sugerida del repositorio
-- `src/` — Código fuente (módulos separados para RLE, LZ78, encriptación y la interfaz principal).
-- `include/` — Cabeceras, si aplica.
-- `data/` — Archivos de prueba y dataset publicado.
-- `bin/` — Ejecutables generados (no versionar en git).
+## Organización del repositorio
+- `src/` — Código fuente - (Archivos cpp).
+- `include/` — Cabeceras - (Archivos h).
 - `docs/` — Documentación adicional y referencias (videos, artículos).
-- `tests/` — Pruebas unitarias y de integración.
-
----
-
-## Ejecución y pruebas (sugerencias)
-- Proveer argumentos o un menú para:
-  - Seleccionar RLE o LZ78.
-  - Indicar archivo de entrada y archivo de salida.
-  - Configurar parámetros de encriptación (`n` y `K`).
-- Realizar pruebas automatizadas que verifiquen que:
-  - compress → encrypt → decrypt → decompress resulta en el archivo original.
-  - Los módulos manejan entradas edge-case (cadena vacía, caracteres repetidos, datos binarios en LZ78, etc.).
-- Incluir manejo de excepciones y mensajes de error claros (archivo no encontrado, parámetros inválidos, fallos de memoria).
-
+- `README.md` — Este archivo
 ---
 
 ## Colaboradores
 Desarrollado por:
 1. Elmer David Mosquera Martinez
 
+---
+
+## Referencias
+- Videos de ejemplo:
+  - "Ejemplo codificación RLE" — https://www.youtube.com/watch?v=oy_GlgjAFew
+  - "Ejemplo codificación LZ78" — https://www.youtube.com/watch?v=oy_GlgjAFew
+- Material adicional recomendado: documentación sobre RLE, LZ78 y operaciones bitwise en C/C++.
+
+---
