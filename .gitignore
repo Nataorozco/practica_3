@@ -84,3 +84,5 @@ CMakeLists.txt.user*
 # Capeta de CLion
 
 .idea/*
+#ignorar arquivos de configuração do Visual Studio Code
+.vscode/*
