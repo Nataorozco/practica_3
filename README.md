@@ -91,7 +91,7 @@ En desarrollo.
 
 ## Colaboradores
 Desarrollado por:
-1. Elmer David Mosquera Martinez
+1. Claudia Nataly Orozco Ocampo
 
 ---
 
