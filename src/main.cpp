@@ -1,5 +1,6 @@
 #include "enlace.h"
 #include <iostream>
+#include <limits>
 #include <conio.h>
 
 using std::cout;
@@ -22,6 +23,7 @@ int main(){
         imprimirMenu();
         cin >> entrada;
         cin.clear();
+        cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
         ejecutar_ejercicio(entrada);
     } while (true);
     return 0;
