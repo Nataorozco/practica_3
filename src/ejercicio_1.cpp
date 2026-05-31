@@ -82,9 +82,6 @@ std::string descomprimirRLE(const std::string& comprimido) {
 
         while (i < comprimido.size() && std::isdigit(comprimido[i])) {
 
-            if (i + 1 < comprimido.size() && !std::isdigit(comprimido[i + 1])) {
-                break;
-            }
             numStr += comprimido[i];
             i++;
         }
